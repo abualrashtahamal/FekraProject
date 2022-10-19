@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:textSize="27dp"
+            android:drawableLeft="@drawable/android_foreground"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="what is android ??"
+            />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_marginLeft="40dp"
+            android:textSize="20dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android is an open-source and Linux-based operating system. It was first introduced on Nov 5, 2007. It was originally developed by Android Inc. and subsequently purchased by Google.
+
+Basically, Android is thought of as a mobile operating system. But it is not limited to mobile-only. It is currently used in various devices such as mobiles, tablets, televisions, etc" />
+<TextView
+    android:layout_margin="20dp"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="@color/green"
+    android:fontFamily="monospace"
+    android:text="programming languages used for android development:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="serif-monospace"
+            android:text="1. Java
+  2. Kotlin
+ 3. Dart
+ 4. C#
+5. C++
+6. Python
+7. xml
+8.sqllite
+9.mysql"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/yout" />
+
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="go to youtube to learn more" />
+
+
+    </LinearLayout>
+</ScrollView>

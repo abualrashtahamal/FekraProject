@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+
+    tools:context=".chapters">
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/chnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chapters"
+            android:fontFamily="cursive"
+            android:textColor="@color/yallow"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:text="chaptername"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/listch"
+            android:layout_width="match_parent"
+            android:layout_height="554dp">
+
+
+        </ListView>
+
+    </LinearLayout>
+
+</ScrollView>

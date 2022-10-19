@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".suggest">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="0"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_horizontal|center_vertical"
+
+        android:layout_margin="8dp"
+   >
+
+        <LinearLayout
+            android:layout_width="323dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nameprobl"
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:hint="problem name"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/descprobl"
+                android:layout_width="246dp"
+                android:layout_height="191dp"
+                android:gravity="center"
+                android:hint="describ your problem" />
+
+            <Button
+                android:id="@+id/sugg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/password"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="#ffffff"
+                android:fontFamily="monospace"
+                android:padding="8dp"
+                android:text="SUGGEST "
+                android:textColor="@color/yallow"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

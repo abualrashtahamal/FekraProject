@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".others_page">
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+
+        android:layout_marginTop="150dp"
+        android:drawableTop="@drawable/info"
+        android:textSize="30dp"
+        android:text="This application helps the IT student to find an idea for a graduation project, you can help him by suggesting problems that you face at the university to be solved through the application" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="84dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/back" />
+
+
+</LinearLayout>

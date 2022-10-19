@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="login page "
+        android:gravity="center|left"
+        android:fontFamily="cursive"
+        android:textSize="50dp"
+        android:drawableLeft="@drawable/li_foreground"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/login_container"
+        android:layout_width="match_parent"
+        android:layout_height="301dp"
+        android:layout_marginTop="10dp"
+
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="373dp"
+            android:layout_height="77dp"
+            android:drawableLeft="@drawable/person"
+            android:hint="   your email"
+
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="373dp"
+            android:layout_height="76dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+
+            android:hint="   your password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="115dp"
+            android:layout_height="62dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="#FF9800"
+            android:fontFamily="cursive"
+            android:text="login"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="107dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/info" />
+</LinearLayout>

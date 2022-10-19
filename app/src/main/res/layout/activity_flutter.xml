@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".flutter">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tx"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+android:drawableLeft="@drawable/flutter_foreground"
+            android:fontFamily="monospace"
+            android:gravity="center|left"
+            android:text="what is Flutter ??"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_marginLeft="40dp"
+            android:textSize="20dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filters is an SDK from Google dedicated to programming Android, IOS, and Fuchsia smartphone applications (a new operating system from Google), as it focuses on the user experience and the developer at the same time, and this is because it provides a comprehensive framework in Dart language dedicated to drawing destinations with high quality and Native applications with excellent performance and at the same time gives the developer the tools that make him build complete applications in the least time" />
+        <TextView
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#34A192"
+            android:fontFamily="monospace"
+            android:text="programming languages used for flutter development:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="serif-monospace"
+            android:text="Flutter’s language for cross-platform development is Dart, which was also developed by Google."
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/youtubef"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/yout" />
+
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="go to youtube to learn more" />
+
+
+    </LinearLayout>
+
+</ScrollView>

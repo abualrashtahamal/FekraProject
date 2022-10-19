@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".web">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tx"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+android:drawableLeft="@drawable/web_foreground"
+            android:fontFamily="monospace"
+            android:gravity="center|left"
+            android:text="what is Web ??"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tx1"
+            android:layout_marginLeft="40dp"
+            android:textSize="20dp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web developers design and build websites. They are typically responsible for the appearance, of the site and technical aspects, such as site speed and how much traffic the site can handle. Web developers may also create site content that requires technical features.
+
+They are sometimes known as web designers or full-stack developers if they can do both front-end and back-end development."/>
+        <TextView
+            android:layout_margin="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#258D21"
+            android:fontFamily="monospace"
+            android:text="programming languages used for web development:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="serif-monospace"
+android:text="Html , css , javascript , php , jsp , asp.net , mysql "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/youtubew"
+            android:layout_width="114dp"
+            android:layout_height="77dp"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/yout" />
+
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="go to youtube to learn more" />
+
+
+    </LinearLayout>
+</ScrollView>
